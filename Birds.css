@@ -1,0 +1,140 @@
+*{ 
+    scroll-behavior: smooth;
+}
+
+.main_bird{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./Images/birds_bg.jpg);
+    opacity: 1.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: aliceblue;
+    gap: 50px;
+    z-index: 99999;
+}
+.b2{
+    position: absolute;
+    z-index: 9999;
+    top: 140vh;
+    rotate: -20deg;
+    width: 300px;
+    height: 200px;
+    /* border-radius: 50%; */
+    margin-top: 20px;
+    margin-left: 20px;
+    filter: drop-shadow(0 0 12px #434343c8);
+
+    /* box-shadow: 0 0 10px #f0d92d; */
+}
+.swans{
+    position: absolute;
+    z-index: 99999;
+    top: 161vh;
+    right: 0;
+    width: 500px;
+    height: 350px;
+    /* border-radius: 50%; */
+    margin-top: 20px;
+    margin-left: 0px;
+    filter: drop-shadow(0 0 12px #434343c8);
+    overflow: hidden;
+}
+.left{
+    height: 500px;
+    width: 320px;
+    border: 45px solid #f0d92d;
+    margin-left: 220px;
+    display: flex;
+    z-index: 1;
+}
+.b1{
+    width: 300px;
+    height: 240px;
+    rotate: 20deg;
+    /* border: 5px solid #f0d92d; */
+    /* box-shadow: 0 0 10px #f0d92d; */
+    margin-top: -150px;
+    margin-left: 545px;
+    filter: drop-shadow(0 0 10px #434343c8);
+}
+
+.b3{
+    width: 270px;
+    height: 200px;
+    /* border: 5px solid #f0d92d; */
+    /* box-shadow: 0 0 10px #f0d92d; */
+    margin-top: 320px;
+    margin-left: -460px;
+    mix-blend-mode: overlay;
+    filter: drop-shadow(0 0 10px #434343c8);
+}
+
+.middle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -160px;
+    margin-left: 270px;
+    /* border: 5px solid #f0d92d; */
+    /* box-shadow: 0 0 10px #f0d92d; */
+}
+.b5{
+    filter: drop-shadow(0 0 10px #5e5c5cc8);
+}
+
+
+.right{
+    border-top: 5px solid #f0d92d;
+
+    width: 350px;
+    margin-right: 220px;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.456);
+    backdrop-filter: blur(1px);
+    height: 350px;
+    z-index: 999;
+}
+.right h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+}
+.right p{
+    background-image: url(./Images/para_img.jpg);
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-left: 30px;
+    height: 200px;
+    width: 310px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: #363636;
+    text-align: left;
+}
+.last{
+   
+    z-index: 9999999;
+    margin-top: -600px;
+    margin-right: -100px;
+    filter: blur(0.5px);
+    height: 300px;
+    width: 300px;
+}
+/* .last1{
+    margin-top: 430px;
+    margin-left: 120px;
+    rotate: -10deg;
+    filter: drop-shadow(0 0 10px #434343c8);
+} */
